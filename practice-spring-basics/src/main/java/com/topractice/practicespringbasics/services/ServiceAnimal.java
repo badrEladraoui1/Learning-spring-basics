@@ -9,11 +9,11 @@ public interface ServiceAnimal {
 
     List<Animal> getAllAnimals();
 
-    Animal getAnimalById();
+    Animal getAnimalById(Long id);
 
     Animal delete(Long id);
 
-    void saveOrUpdate(Animal animal);
+    void saveOrUpdate(Animal animal , Long Animalid);
 //    List<Animal> getAnimalsById(Long id1, Long id2, Long id3);
 //    void deleteAnimalsBetween_Age_A_Age_B(Integer ageA , Integer ageB);
 //    Boolean isExistByColor(String color);
